@@ -169,3 +169,14 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# C++
+*.o
+*.obj
+*.exe
+*.out
+*.gch
+*.idb
+*.pdb
+*.vs
+*.vscode
