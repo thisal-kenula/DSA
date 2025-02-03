@@ -18,9 +18,9 @@ def radix_sort(arr: list):
         arr.clear() # Clear the array before adding the sorted elements
         # arr = [] will not work as it will create a new list and the reference will be lost
 
-        for i in range(10):
-            for j in digi_grp[i]:
-                arr.append(j)
+        for bucket in range(10):
+            for number in digi_grp[bucket]:
+                arr.append(number)
 
         e *= 10 # Move to the next digit
     
