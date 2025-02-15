@@ -5,10 +5,10 @@ This repository contains my learning progress in **Data Structures and Algorithm
 ## 📌 Topics Covered
 
 - Algorithms
-  - Bubble Sort: [C++](CPP/bubbleSort.cpp)
+  - Bubble Sort: [Python](Python/bubble_sort.py), [C++](CPP/bubbleSort.cpp)
   - Quick Sort: [Python](/Python/bubble_sort.py), [C++](CPP/bubbleSort.cpp)
   - Radix Sort: [Python](/Python/radix_sort.py)
  
-- Currently working on: [Bubble Sort](/Python/bubble_sort.py)
-- To be covered:
-    - Radix Sort in C++
+- Currently working on: 
+  - Selection Sort in Python
+  - Radix Sort in C++
