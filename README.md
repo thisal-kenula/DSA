@@ -10,5 +10,5 @@ This repository contains my learning progress in **Data Structures and Algorithm
   - Radix Sort: [Python](/Python/radix_sort.py)
  
 - Currently working on: 
-  - Selection Sort in Python
+  - Insertion Sort in Python
   - Radix Sort in C++
