@@ -5,11 +5,11 @@ This repository contains my learning progress in **Data Structures and Algorithm
 ## 📌 Topics Covered
 
 - Algorithms
-  - Bubble Sort: [Python](Python/bubble_sort.py), [C++](CPP/bubbleSort.cpp)
-  - Quick Sort: [Python](/Python/bubble_sort.py), [C++](CPP/quickSort.cpp), [Note](/Notes(PDF)/QuickSort.pdf)
-  - Radix Sort: [Python](/Python/radix_sort.py)
+  - Bubble Sort: [Python](Python/bubble_sort.py), [C++](CPP/bubbleSort.cpp), [W3Schools](https://www.w3schools.com/dsa/dsa_algo_bubblesort.php)
+  - Selection Sort: [Python](Python/selection_sort.py), [C++](CPP/selectionSort.cpp), [W3Schools](https://www.w3schools.com/dsa/dsa_algo_selectionsort.php)
+  - Insertion Sort: [Python](Python/insertion_sort.py)  **# Currently Working On**, [W3Schools](https://www.w3schools.com/dsa/dsa_algo_insertionsort.php)
+  - Quick Sort: [Python](/Python/bubble_sort.py), [C++](CPP/quickSort.cpp), [PDF](/Notes(PDF)/QuickSort.pdf), [W3Schools](https://www.w3schools.com/dsa/dsa_algo_quicksort.php), [YouTube](https://www.youtube.com/watch?v=WprjBK0p6rw)
+  - Radix Sort: [Python](/Python/radix_sort.py), [W3Schools](https://www.w3schools.com/dsa/dsa_algo_radixsort.php)
  
-- Currently working on: 
-  - Insertion Sort in Python
-  - Quick Sort in C++
-    - Do insertion sort after done in Python
+- Learning Strategy:
+  - Learn 2 topics in Python -> do same in C++.
