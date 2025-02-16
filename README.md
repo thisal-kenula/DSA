@@ -6,9 +6,10 @@ This repository contains my learning progress in **Data Structures and Algorithm
 
 - Algorithms
   - Bubble Sort: [Python](Python/bubble_sort.py), [C++](CPP/bubbleSort.cpp)
-  - Quick Sort: [Python](/Python/bubble_sort.py), [C++](CPP/bubbleSort.cpp)
+  - Quick Sort: [Python](/Python/bubble_sort.py), [C++](CPP/quickSort.cpp), [Note](/Notes(PDF)/QuickSort.pdf)
   - Radix Sort: [Python](/Python/radix_sort.py)
  
 - Currently working on: 
   - Insertion Sort in Python
-  - Radix Sort in C++
+  - Quick Sort in C++
+    - Do insertion sort after done in Python
