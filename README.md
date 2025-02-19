@@ -12,7 +12,7 @@ My summarized handwritten notes are also included in the [**Notes(PDF)**](/Notes
   
   - Selection Sort: [Python](/Python/selection_sort.py), [C++](CPP/selectionSort.cpp), [PDF](/Notes(PDF)/SelectionSort.pdf) [W3Schools](https://www.w3schools.com/dsa/dsa_algo_selectionsort.php)
   
-  - Insertion Sort: [Python](/Python/insertion_sort.py), [PDF](/Notes(PDF)/InsertionSort.pdf), [W3Schools](https://www.w3schools.com/dsa/dsa_algo_insertionsort.php)
+  - Insertion Sort: [Python](/Python/insertion_sort.py), [C++](/CPP/insertionSort.cpp), [PDF](/Notes(PDF)/InsertionSort.pdf), [W3Schools](https://www.w3schools.com/dsa/dsa_algo_insertionsort.php)
   
   - Quick Sort: [Python](/Python/bubble_sort.py), [C++](CPP/quickSort.cpp), [PDF](/Notes(PDF)/QuickSort.pdf), [W3Schools](https://www.w3schools.com/dsa/dsa_algo_quicksort.php), [YouTube](https://www.youtube.com/watch?v=WprjBK0p6rw)
 
@@ -20,7 +20,6 @@ My summarized handwritten notes are also included in the [**Notes(PDF)**](/Notes
   
   - Radix Sort: [Python](/Python/radix_sort.py), [PDF](/Notes(PDF)/RadixSort.pdf), [W3Schools](https://www.w3schools.com/dsa/dsa_algo_radixsort.php)
  
-**Learning Strategy:**  
-Learn 2 topics in Python -> do same in C++.
+**Learning Strategy**: Learn 2 topics in Python -> do same in C++.
 
 **Currently Working**: Insertion Sort in C++.
