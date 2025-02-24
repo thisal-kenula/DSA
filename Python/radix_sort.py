@@ -14,17 +14,17 @@ def radix_sort(arr: list):
         # Add the numbers to the respective digit group
         for num in arr:
             digi_grp[(num//e)%10].append(num)
-        
-        arr.clear() # Clear the array before adding the sorted elements
-        # arr = [] will not work as it will create a new list and the reference will be lost
 
+        # Copy the sorted elements back to the original array
+        index = 0
         for bucket in range(10):
-            for number in digi_grp[bucket]:
-                arr.append(number)
+            for num in digi_grp[bucket]:
+                arr[index] = num
+                index += 1
 
         e *= 10 # Move to the next digit
-    
 
+# USAGE
 
 myArray = [170, 45, 75, 90, 802, 24, 2, 66]
 
