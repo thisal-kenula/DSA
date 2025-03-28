@@ -22,6 +22,8 @@ My summarized handwritten notes are also included in the [**Notes(PDF)**](/Notes
 
   - Merge Sort: [Python](/Python/merge_sort.py), [PDF](/Notes(PDF)/MergeSort.pdf), [W3Scools](https://www.w3schools.com/dsa/dsa_algo_mergesort.php)
 
+  - Linear Search: [Python](/Python/linear_search.py), [W3Schools](https://www.w3schools.com/dsa/dsa_algo_linearsearch.php)
+
 - Data Structures
   - Data Structures in C++ STL library: [PDF](/Notes(PDF)/STL.pdf)
 
@@ -29,7 +31,9 @@ My summarized handwritten notes are also included in the [**Notes(PDF)**](/Notes
 
 **Learning Strategy**: Learn 2 topics in Python -> do same in C++.
 
-- Merge Sort(without recursion) in Python
-- Linear Search in Python
 - Binary Search in Python
-- Merge Sort(with recursion) in C++
+- Linear Search in C++
+
+### **Skipped**:
+
+- Merge Sort without recursion (Python/C++)
