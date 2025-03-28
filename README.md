@@ -33,8 +33,7 @@ My summarized handwritten notes are also included in the [**Notes(PDF)**](/Notes
 
 **Learning Strategy**: Learn 2 topics in Python -> do same in C++.
 
-- Binary Search in Python
-- Linear Search in C++
+- Binary Search in C++
 
 ### **Skipped**:
 
