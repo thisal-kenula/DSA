@@ -12,12 +12,12 @@ def binary_search(arr, value):
         if arr[mid] == value:
             return mid
         
-        if mid < value: # Value is larger
-            left = mid 
+        if arr[mid] < value: # Value is larger
+            left = mid + 1
         else: # Value is smaller
-            right = mid
+            right = mid - 1
 
-        # When using `left = mid` and `right = mid` without `+1`,
+        # When using `left = mid` and `right = mid` without `+1` and `-1`,
         # it would cause an infinity loop when value is last or
         # first.
         
@@ -26,5 +26,5 @@ def binary_search(arr, value):
 # USAGE
 
 my_array  = [2, 3, 7, 7, 11, 15, 25, 28]
-i = binary_search(my_array, 2)
+i = binary_search(my_array, 15)
 print(i)
