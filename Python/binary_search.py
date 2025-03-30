@@ -1,5 +1,6 @@
 # Binary Search
 # Works for sorted arrays
+# Tested with Python 3.13.2
 
 def binary_search(arr, value):
     right = len(arr) - 1 # Last index

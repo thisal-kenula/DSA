@@ -1,3 +1,5 @@
+# Tested with Python 3.13.2
+
 import dis
 
 def linear_search(array, value):

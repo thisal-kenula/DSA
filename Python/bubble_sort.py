@@ -1,3 +1,5 @@
+# Tested with Python 3.13.2
+
 def bubble_sort(arr: list):
     n = len(arr)
     # Traverse through all array elements - 1 

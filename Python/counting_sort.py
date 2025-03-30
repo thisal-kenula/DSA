@@ -5,6 +5,8 @@ Sorts by counting the number of time each value occurs.
 Fast when the range of possible values < number of values.  
 Otherwise, the array created for counting will be larger than the array being sorted.  
 Works for non-negative integers.
+
+Tested with Python 3.13.2
 '''
 
 def counting_sort(arr: list):

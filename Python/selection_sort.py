@@ -2,7 +2,8 @@
 Selection Sort
 
 In each iteration, find the minimum element from the unsorted part
-of the array and swap it with the first element of the unsorted part.
+of the array and swap it with the first element of the unsorted part.  
+Tested with Python 3.13.2
 '''
 
 def selection_sort(nums: list):

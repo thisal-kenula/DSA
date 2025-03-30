@@ -1,6 +1,7 @@
 # Merge Sort (using recursion)
 # Works for all integer and float values
 # Returns a new sorted array, does not modify the original array
+# Tested with Python 3.13.2
 
 import dis
 

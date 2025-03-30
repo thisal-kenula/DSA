@@ -2,6 +2,8 @@
 Insertion Sort
 
 Move each value to the left until it finds the correct position.
+
+Tested with Python 3.13.2
 '''
 
 def insertion_sort(arr: list):

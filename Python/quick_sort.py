@@ -1,3 +1,5 @@
+# Tested with Python 3.13.2
+
 def quick_sort(arr: list, start: int, end: int):
     if start >= end - 1:
         return
