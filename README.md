@@ -24,7 +24,7 @@ My summarized handwritten notes are also included in the [**Notes(PDF)**](/Notes
 
   - Linear Search: [C++](/CPP/linearSearch.cpp), [Python](/Python/linear_search.py), [W3Schools](https://www.w3schools.com/dsa/dsa_algo_linearsearch.php)
 
-  - Binary Search: [Python](/Python/binary_search.py), [C++](/CPP/binarySearch.cpp) [W3Schools](https://www.w3schools.com/dsa/dsa_algo_binarysearch.php)
+  - Binary Search: [Python](/Python/binary_search.py), [C++](/CPP/binarySearch.cpp), [PDF](/Notes(PDF)/BinarySearch.pdf), [W3Schools](https://www.w3schools.com/dsa/dsa_algo_binarysearch.php)
 
 - Data Structures
   - Data Structures in C++ STL library: [PDF](/Notes(PDF)/STL.pdf)
