@@ -28,11 +28,3 @@ My summarized handwritten notes are also included in the [**Notes(PDF)**](/Notes
 
 - Data Structures
   - Data Structures in C++ STL library: [PDF](/Notes(PDF)/STL.pdf)
-
-## 📋 TODO:
-
-- [Linked lists](https://www.w3schools.com/dsa/dsa_theory_linkedlists.php)
-
-### **Skipped**:
-
-- Merge Sort without recursion (Python/C++)
