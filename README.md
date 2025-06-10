@@ -33,3 +33,4 @@ My summarized handwritten notes are also included in the [**Notes(PDF)**](/Notes
     - Singly Linked List: [C](/C/singlyLinkedList.c), [W3Schools](https://www.w3schools.com/dsa/dsa_data_linkedlists_types.php#:~:text=Singly%20Linked%20List%20Implementation)
     - Doubly Linked List: [C](/C/doublyLInkedList.c), [W3Schools](https://www.w3schools.com/dsa/dsa_data_linkedlists_types.php#:~:text=Doubly%20Linked%20List%20Implementation)
     - Circular Singly Linked List: [C](/C/circularSinglyLinkedList.c), [W3Schools](https://www.w3schools.com/dsa/dsa_data_linkedlists_types.php#:~:text=Circular%20Singly%20Linked%20List%20Implementation)
+    - Circular Doubly Linked List: [C](/C/circularDoublyLinkedList.c), [W3Schools](https://www.w3schools.com/dsa/dsa_data_linkedlists_types.php#:~:text=Circular%20Doubly%20Linked%20List%20Implementation)
