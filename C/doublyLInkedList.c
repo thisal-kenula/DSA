@@ -1,44 +1,47 @@
-// Linked list implementation in C
-
 #include <stdio.h>
 #include <stdlib.h>
 
-// Define Node data type
+// Define node data type
 typedef struct Node {
-    int data; // Store the value
+    int data;
     struct Node* next; // Pointer to next node
+    struct Node* prev; // Pointer of previous node
 } Node;
 
-// Function for creating a new node
-// Allocates memory for a node and returns the pointer.
 Node* createNode (int data) {
-    
-    // `malloc(sizeof(Node))`: allocate memory for a size of Node
     Node* newNode = (Node*) malloc(sizeof(Node));
 
-    // if newNode == Null (`malloc` returns Null if failed.)
-    if (!newNode) { 
-        printf("Memory allocation failed!");
-        exit(1); // To exit the program with an error
+    if (!newNode) {
+        printf("Memory allocation error");
+        exit(1);
     }
 
-    newNode->data = data; // Sytactic sugar for (*newNode).data = data
+    newNode->data = data;
     // To ensure that new node does not point for garbage value
-    newNode->next = NULL; 
+    newNode->next = NULL;
+    newNode->prev = NULL;
 
     return newNode;
 }
 
-// Print the values of Nodes
-void printList (Node* node) {
+void traverseForward (Node* node) {
     while (node) {
         printf("%d -> ", node->data);
         node = node->next;
     }
-    printf("NULL\n");
+
+    printf("null\n");
 }
 
-//Test
+void traverseBackward (Node* node) {
+    while (node) {
+        printf("%d -> ", node->data);
+        node = node->prev;
+    }
+
+    printf("null\n");
+}
+
 int main() {
     Node* node1 = createNode(20);
     Node* node2 = createNode(18);
@@ -49,7 +52,12 @@ int main() {
     node2->next = node3;
     node3->next = node4;
 
-    printList(node1);
+    node4->prev = node3;
+    node3->prev = node2;
+    node2->prev = node1;
+
+    traverseForward(node1);
+    traverseBackward(node4);
 
     free(node1);
     free(node2);
