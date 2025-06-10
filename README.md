@@ -1,7 +1,7 @@
 # Data Structures and Algorithms (DSA)
 
 This repository contains my learning progress in **Data Structures and Algorithms (DSA)**, following the materials from [**W3Schools**](https://www.w3schools.com/dsa/index.php).  
-This includes implementations of various DSA concepts in **C++** and **Python**.  
+This includes implementations of various DSA concepts in **C**, **C++** and **Python**.  
 My summarized handwritten notes are also included in the [**Notes(PDF)**](/Notes(PDF)/) folder.
 
 
@@ -22,9 +22,12 @@ My summarized handwritten notes are also included in the [**Notes(PDF)**](/Notes
 
   - Merge Sort: [Python](/Python/merge_sort.py), [PDF](/Notes(PDF)/MergeSort.pdf), [W3Scools](https://www.w3schools.com/dsa/dsa_algo_mergesort.php)
 
-  - Linear Search: [C++](/CPP/linearSearch.cpp), [Python](/Python/linear_search.py), [W3Schools](https://www.w3schools.com/dsa/dsa_algo_linearsearch.php)
+  - Linear Search: [Python](/Python/linear_search.py), [C++](/CPP/linearSearch.cpp), [W3Schools](https://www.w3schools.com/dsa/dsa_algo_linearsearch.php)
 
   - Binary Search: [Python](/Python/binary_search.py), [C++](/CPP/binarySearch.cpp), [PDF](/Notes(PDF)/BinarySearch.pdf), [W3Schools](https://www.w3schools.com/dsa/dsa_algo_binarysearch.php)
 
 - Data Structures
   - Data Structures in C++ STL library: [PDF](/Notes(PDF)/STL.pdf)
+
+  - Linked Lists
+    - Singly Linked List: [C](/C/singlyLinkedList.c), [W3Schools](https://www.w3schools.com/dsa/dsa_data_linkedlists_types.php#:~:text=Singly%20Linked%20List%20Implementation)
