@@ -1,0 +1,135 @@
+/*
+* Linked list operations on a singly linked list
+* Includes:
+*   - Traversal
+*   - Find lowest value
+*   - 
+*/
+#include <stdio.h>
+#include <stdlib.h>
+
+// Define data type Node
+typedef struct Node {
+    int data;
+    struct Node* next; // Pointer to next node
+} Node;
+
+/**
+ * Create new node
+ * 
+ * @param data Value of the node
+ * @return Pointer of the created node
+ */
+Node* createNode(int data) {
+    // Allocate memory for new node
+    Node* newNode = (Node*) malloc(sizeof(Node));
+
+    // If memory allocation failed
+    if (!newNode) {
+        printf("Memory allocation failed!");
+        exit(1);
+    }
+
+    newNode->data = data;
+    newNode->next = NULL; // To avoid garbage values
+
+    return newNode;
+}
+
+/**
+ * Traverse linked list
+ * 
+ * @param node Starting node of the Linked List
+ */
+void traverse(Node* node) {
+    while (node) {
+        printf("%d -> ", node->data);
+        node = node->next;
+    }
+    printf("NULL\n");
+}
+
+/**
+ * Find lowest value in linked list
+ * 
+ * @param node Starting node
+ * @returns Lowest value in the linked list
+ */
+int findLowestVal(Node* node) {
+    int lowestValue = node->data;
+    node = node->next;
+    
+    while (node) {
+        if (node->data < lowestValue) {
+            lowestValue = node->data;
+        }
+        node = node->next;
+    }
+
+    return lowestValue;
+}
+
+/**
+ * Delete a node
+ * 
+ * @param head Pointer of the head node of the linked list
+ * @param nodeToDelete Pointer of the node to be deleted
+ * @returns Pointer to new head of the linked list
+ */
+Node* deleteNode(Node* head, Node* nodeToDelete) {
+    // If the code to delete is a head
+    if (head == nodeToDelete) {
+        Node* newHead = head->next;
+        free(head);
+        return newHead;
+    }
+
+    // Traverse to the previous node of the nodeToDelete
+    Node* currentNode = head;
+    while (currentNode->next && currentNode->next != nodeToDelete) {
+        currentNode = currentNode->next;
+    }
+
+    // If the while loop ended without finding the nodeToDelete
+    if (currentNode->next == NULL) {
+        return head;
+    }
+
+    // Point previous node's 'next' to the node after the one being deleted.
+    currentNode->next = (currentNode->next)->next;
+    free(nodeToDelete);
+
+    return head;
+}
+
+// Testing
+int main() {
+    Node* node1 = createNode(20);
+    Node* node2 = createNode(18);
+    Node* node3 = createNode(6);
+    Node* node4 = createNode(23);
+
+    node1->next = node2;
+    node2->next = node3;
+    node3->next = node4;
+
+    printf("Linked list: ")''
+    traverse(node1);
+
+    printf("Lowest value: ");
+    int i = findLowestVal(node1);
+    printf("%d\n", i);
+
+    Node* newHeadNode = deleteNode(node1, node3);
+    printf("Linked list after deleting node3");
+    traverse(newHeadNode);
+
+    // This works for this specific case. But it's reecommended.
+    // Use a dedicated function to free the list.
+    free(node1);
+    free(node2);
+    // free(node3); // This is already freed when deleting the node
+    free(node4);
+
+    return 0;
+}
