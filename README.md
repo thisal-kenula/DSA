@@ -29,7 +29,7 @@ My summarized handwritten notes are also included in the [**Notes(PDF)**](/Notes
 - Data Structures
   - Data Structures in C++ STL library: [PDF](/Notes(PDF)/STL.pdf)
 
-  - Linked Lists
+  - Linked Lists: [PDF](/Notes(PDF)/LinkedLists.pdf), [W3Schools](https://www.w3schools.com/dsa/dsa_theory_linkedlists.php)
     - Singly Linked List: [C](/C/singlyLinkedList.c), [W3Schools](https://www.w3schools.com/dsa/dsa_data_linkedlists_types.php#:~:text=Singly%20Linked%20List%20Implementation)
     - Doubly Linked List: [C](/C/doublyLInkedList.c), [W3Schools](https://www.w3schools.com/dsa/dsa_data_linkedlists_types.php#:~:text=Doubly%20Linked%20List%20Implementation)
     - Circular Singly Linked List: [C](/C/circularSinglyLinkedList.c), [W3Schools](https://www.w3schools.com/dsa/dsa_data_linkedlists_types.php#:~:text=Circular%20Singly%20Linked%20List%20Implementation)
