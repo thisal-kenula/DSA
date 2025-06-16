@@ -35,3 +35,6 @@ My summarized handwritten notes are also included in the [**Notes(PDF)**](/Notes
     - Circular Singly Linked List: [C](/C/circularSinglyLinkedList.c), [W3Schools](https://www.w3schools.com/dsa/dsa_data_linkedlists_types.php#:~:text=Circular%20Singly%20Linked%20List%20Implementation)
     - Circular Doubly Linked List: [C](/C/circularDoublyLinkedList.c), [W3Schools](https://www.w3schools.com/dsa/dsa_data_linkedlists_types.php#:~:text=Circular%20Doubly%20Linked%20List%20Implementation)
     - Linked list operations: [C](/C/linkedListOperations.c), [W3Schools](https://www.w3schools.com/dsa/dsa_algo_linkedlists_operations.php)
+
+- Stacks
+  - Stack using arrays: [C](/C/stackArray.c), [W3Schools](https://www.w3schools.com/dsa/dsa_data_stacks.php#:~:text=Stack%20Implementation%20using%20Arrays)
