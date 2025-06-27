@@ -39,3 +39,6 @@ My summarized handwritten notes are also included in the [**Notes(PDF)**](/Notes
   - Stacks: [PDF](/Notes(PDF)/Stacks.pdf), [W3Schools](https://www.w3schools.com/dsa/dsa_data_stacks.php)
     - Stack using arrays: [C](/C/stackArray.c), [W3Schools](https://www.w3schools.com/dsa/dsa_data_stacks.php#:~:text=Stack%20Implementation%20using%20Arrays)
     - Stack using linked lists: [C](/C/stackLinkedList.c), [W3Schools](https://www.w3schools.com/dsa/dsa_data_stacks.php#:~:text=Stack%20Implementation%20using%20Linked%20Lists)
+
+  - Queues: [W3Schools](https://www.w3schools.com/dsa/dsa_data_queues.php)
+    - Queue using arrays: [C](/C/queueArray.c), [W3Schools](https://www.w3schools.com/dsa/dsa_data_queues.php#:~:text=Queue%20Implementation%20using%20Arrays)
