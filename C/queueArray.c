@@ -139,7 +139,7 @@ int main() {
         printf("Empty queue.\n");
     }
 
-    // Deqeue
+    // Dequeue
     int removed1;
     if (dequeue(myqueue, &removed1) == 0) {
         printf("Successfully removed %d\n", removed1);
