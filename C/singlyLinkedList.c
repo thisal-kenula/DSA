@@ -22,7 +22,7 @@ Node* createNode (int data) {
         exit(1); // To exit the program with an error
     }
 
-    newNode->data = data; // Sytactic sugar for (*newNode).data = data
+    newNode->data = data; // Syntactic sugar for (*newNode).data = data
     // To ensure that new node does not point for garbage value
     newNode->next = NULL; 
 
